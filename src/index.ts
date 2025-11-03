@@ -1,8 +1,4 @@
-window.addEventListener("load", () => {
-  const button = document.getElementById("btn")!;
-  const label = document.getElementById("cnt")!;
-
-  button.addEventListener("click", () => {
-    label.innerText = `${(parseInt(label.innerText || "") || 0) + 1}`;
-  });
+window.addEventListener("DOMContentLoaded", () => {
+  // 페이지 로드 후 로고 애니메이션, 메뉴 클릭 등 인터랙션 넣는 자리
+  console.log("삼양화인 블로그 스킨 로드 완료 🚀");
 });
